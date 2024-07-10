@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #0F0715;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  color: white;
+}
+.my-container{
+  @apply max-w-[1100px] mx-auto box-border
+}
+.clear-fix{
+  @apply flex justify-between items-center gap-4
+}
+.my-border{
+  @apply rounded-xl border border-gray-700
+}
+/* header */
+.menus{
+  @apply flex gap-5 items-center
+}
+.my-btn{
+  @apply px-5 rounded-md font-semibold py-3 bg-accent text-primary 
+}
+.hero-container{
+  @apply bg-secondary px-2 py-4 my-border grid grid-cols-3 gap-6 items-center
+}
+.success-container{
+  @apply bg-secondary my-border px-2 py-6 mt-16 mb-6 grid grid-cols-4 gap-4 justify-between items-center
+}
+.skill-item{
+  @apply my-border flex flex-col items-center gap-5
+}
+.skill-item:hover{
+  @apply bg-secondary transition-all duration-300 ease-in
+}
+.skill-item:hover img{
+  @apply scale-110 transition-all duration-300 ease-in-out
+}

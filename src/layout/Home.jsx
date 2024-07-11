@@ -1,18 +1,20 @@
-import React from 'react';
-import Hero from '../pages/homes/Hero';
-import Success from '../pages/homes/Success';
-import AboutMe from '../pages/homes/AboutMe';
-import Skills from '../pages/homes/Skills';
+import React from "react";
+import Hero from "../pages/homes/Hero";
+import Success from "../pages/homes/Success";
+import AboutMe from "../pages/homes/AboutMe";
+import Skills from "../pages/homes/Skills";
 
 const Home = () => {
-    return (
-        <>
-            <Hero />
-            <Success />
-            <AboutMe />
-            <Skills />
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <Success />
+      <AboutMe />
+      <Skills />
+      <AboutMe />
+      <AboutMe />
+    </>
+  );
 };
 
 export default Home;

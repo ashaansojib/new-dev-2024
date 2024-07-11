@@ -48,8 +48,11 @@ body {
 .success-container{
   @apply bg-secondary my-border px-2 py-6 mt-16 mb-6 grid grid-cols-4 gap-4 justify-between items-center
 }
+.skills-container{
+  @apply flex justify-between gap-4 overflow-x-scroll
+}
 .skill-item{
-  @apply my-border flex flex-col items-center gap-5
+  @apply my-border flex flex-col items-center gap-5 min-w-[300px]
 }
 .skill-item:hover{
   @apply bg-secondary transition-all duration-300 ease-in

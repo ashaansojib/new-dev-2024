@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Figma",
+        "percent": "65%",
+        "img": "/figma.svg"
+    },
+    {
+        "name": "JavaScript",
+        "percent": "85%",
+        "img": "/js.svg"
+    },
+    {
+        "name": "React JS",
+        "percent": "95%",
+        "img": "/react.svg"
+    },
+    {
+        "name": "sktech",
+        "percent": "55%",
+        "img": "/sketch.svg"
+    },
+    {
+        "name": "WordPress",
+        "percent": "40%",
+        "img": "/wp.svg"
+    },
+    {
+        "name": "XD / PS",
+        "percent": "65%",
+        "img": "/xd.svg"
+    },
+    {
+        "name": "sktech",
+        "percent": "55%",
+        "img": "/sketch.svg"
+    },
+    {
+        "name": "WordPress",
+        "percent": "40%",
+        "img": "/wp.svg"
+    },
+    {
+        "name": "XD / PS",
+        "percent": "65%",
+        "img": "/xd.svg"
+    }
+]
